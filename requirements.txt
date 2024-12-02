@@ -14,7 +14,7 @@ future==0.17.1
 idna==2.8
 jdcal==1.4.1
 lxml==4.2.5
-mysqlclient==1.4.2.post1
+mysqlclient==2.2.6
 oauthlib==2.1.0
 openpyxl==2.5.12
 phonenumbers==8.10.6
