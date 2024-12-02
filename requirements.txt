@@ -19,7 +19,7 @@ oauthlib==2.1.0
 openpyxl==2.5.12
 phonenumbers==8.10.6
 protobuf==3.6.0
-pycparser==2.19
+pycparser==2.22
 PyJWT==1.7.1
 PyMySQL==0.9.3
 pyOpenSSL==19.0.0
