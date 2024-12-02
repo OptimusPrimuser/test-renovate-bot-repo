@@ -3,7 +3,7 @@ Babel==2.0.0
 certifi==2018.11.29
 cffi==1.12.1
 chardet==3.0.4
-configparser==3.7.3
+configparser==3.8.1
 cryptography==2.5
 Django==1.11.29
 django-haystack==2.8.1
