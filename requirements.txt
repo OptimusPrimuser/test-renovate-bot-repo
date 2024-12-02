@@ -1,6 +1,6 @@
 asn1crypto==0.20.0
 Babel==2.0.0
-certifi==2018.11.29
+certifi==2024.8.30
 cffi==1.12.1
 chardet==3.0.4
 configparser==3.7.3
