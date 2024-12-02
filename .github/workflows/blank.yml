@@ -34,6 +34,7 @@ jobs:
           export GITHUB_COM_TOKEN=$GIT
           export RENOVATE_CONFIG_FILE='.github/renovate-bot.js'
           export LOG_LEVEL=debug
+          ecport RENOVATE_TOKEN=$GIT
           renovate
       # Runs a single command using the runners shell
       - name: Run a one-line script
