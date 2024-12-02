@@ -6,7 +6,7 @@ chardet==3.0.4
 configparser==3.7.3
 cryptography==2.5
 Django==1.11.29
-django-haystack==2.8.1
+django-haystack==3.3.0
 django-phonenumber-field==2.2.0
 enum34==1.1.10
 et-xmlfile==1.0.1
