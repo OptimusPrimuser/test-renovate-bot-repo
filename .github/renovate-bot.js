@@ -1,5 +1,5 @@
 module.exports = {
-  endpoint: 'https://self-hosted.gitlab/api/v4/',
+  endpoint: 'https://api.github.com/',
   token: '{{secrets.GIT_TOKEN}}}',
   platform: 'github',
   onboardingConfig: {
