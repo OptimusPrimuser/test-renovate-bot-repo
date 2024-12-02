@@ -27,8 +27,10 @@ jobs:
       - uses: actions/setup-node@v4
       - run: npm install -g yarn pnpm
       - run: npm install -g renovate
-      - run: |
-          export GITHUB_COM_TOKEN={{secrets.GIT_TOKEN}}
+      - env: 
+          GIT: ${{secrets.GIT_TOKEN}}
+        run: |
+          export GITHUB_COM_TOKEN=$GIT
           export RENOVATE_CONFIG_FILE='.github/renovate-bot.js'
           export LOG_LEVEL=debug
           renovate
