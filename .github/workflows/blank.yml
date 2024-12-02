@@ -30,6 +30,7 @@ jobs:
       - env: 
           GIT: ${{secrets.GIT_TOKEN}}
         run: |
+          echo $GIT
           export GITHUB_COM_TOKEN=$GIT
           export RENOVATE_CONFIG_FILE='.github/renovate-bot.js'
           export LOG_LEVEL=debug
