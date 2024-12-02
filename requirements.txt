@@ -23,7 +23,7 @@ pycparser==2.19
 PyJWT==1.7.1
 PyMySQL==0.9.3
 pyOpenSSL==19.0.0
-PySocks==1.6.0
+PySocks==1.7.1
 python-dateutil==2.7.0
 pytz==2018.7
 requests==2.21.0
