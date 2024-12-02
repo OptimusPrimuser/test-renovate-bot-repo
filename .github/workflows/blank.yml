@@ -26,7 +26,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
       - run: npm install -g renovate
-      - run: renovate
+      - run: |
+          export GITHUB_COM_TOKEN={{secrets.GIT_TOKEN}}
+          
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
