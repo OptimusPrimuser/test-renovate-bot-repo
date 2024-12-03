@@ -3,5 +3,5 @@ module.exports = {
   onboardingConfig: {
     extends: ['config:recommended'],
   },
-  repositories: ['OptimusPrimuser/test-renovate-bot-repo'],
+  repositories: ['OptimusPrimuser/codecrafters-http-server-go','OptimusPrimuser/codecrafters-shell-go','OptimusPrimuser/Gesture-Controller'],
 };
