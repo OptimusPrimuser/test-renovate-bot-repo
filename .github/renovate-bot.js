@@ -3,5 +3,5 @@ module.exports = {
   onboardingConfig: {
     extends: ['config:recommended'],
   },
-  repositories: ['OptimusPrimuser/codecrafters-http-server-go','OptimusPrimuser/codecrafters-shell-go','OptimusPrimuser/Gesture-Controller'],
+  repositories: ['OptimusPrimuser/codecrafters-http-server-go','OptimusPrimuser/codecrafters-shell-go','OptimusPrimuser/test-helm-chart-repo'],
 };
